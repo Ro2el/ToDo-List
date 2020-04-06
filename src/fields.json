@@ -1,0 +1,38 @@
+{
+    "task_select":{
+        "label":"Tasks",
+        "name" :"task_select",
+        "type":"Task_select"
+        },
+        
+    "user":
+    {
+        "label":"User",
+        "name": "user",
+        "type": "Select"
+       
+    },
+"title" :
+    {
+        "label":"Title",
+        "name": "title",
+        "type": "Text"
+       
+    },
+"desc": 
+    {
+        "label":"Describtion",
+        "name": "desc",
+        "type": "Textarea"
+        
+    },
+"active" :
+    {
+        "label":"Active",
+        "name": "active",
+        "type": "Checkbox"
+        
+    }
+
+
+}

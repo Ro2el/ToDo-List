@@ -1,0 +1,50 @@
+.root{
+    display: flex;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 20%;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0 auto;
+    
+  
+}
+.header{
+    text-align: center;
+}
+.user{
+    display: flex;
+    
+    flex-flow:column;
+    
+}
+.task{
+    display: flex;
+    flex-flow:column; 
+}
+.desc{
+    display: flex;
+    flex-flow:column;
+    
+}
+.active{
+    display: flex;
+    flex-flow:column;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.addtask{
+    display: flex;
+    flex-flow:row;
+    /* justify-content: space-around; */
+}
+.addsub{
+    display: flex;
+    align-self: flex-end;
+}
